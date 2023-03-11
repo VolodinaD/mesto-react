@@ -4,7 +4,7 @@ import '../index.css';
 function Footer() {
     return (
         <footer className="footer">
-            <p>&copy; 2020 Mesto Russia</p>
+            <p>&copy; 2023 Mesto Russia</p>
         </footer>
     );
 }

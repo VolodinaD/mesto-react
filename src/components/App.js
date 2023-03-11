@@ -67,21 +67,6 @@ function App() {
         </>
       </PopupWithForm>
       <ImagePopup card={selectedCard} onClose={closeAllPopups} />
-      <template className="element-template">
-        <li className="element">
-          <div className="element__grid">
-            <img className="element__image" src=" " alt=" " />
-            <button type="button" className="element__trash-button"></button>
-          </div>
-          <div className="element__info">
-            <h2 className="element__name"></h2>
-            <div className="element__like-container">
-              <button type="button" className="element__like-button"></button>
-              <p className="element__like-number"></p>
-            </div>
-          </div>
-        </li>
-      </template>
     </div>
   );
 }
